@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    /* list-style: none; */
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    color: white;
+    height: 700px;
+    font-size: 25px;
+    position: relative;
+    width: 100%;
+    /* top: 200px; */
+}
+ol,li{
+    padding: 13px;
+    margin: 10px;
+    position: relative;
+    
+}
+.form1{
+    margin: 10;
+    position: relative;
+    left: 900px;
+    top: -660px;
+    color: rgb(15, 14, 14);
+    border: 1px solid white;
+    width: 400px;
+    height: 630px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5%;
+    /* top: 200px; */
+
+}
+.form3{
+    font-size: 15px;
+    margin: 8%;
+}
+input{
+    margin: 4%;
+    padding: 5px;
+    width: 300px;
+}
+h4{
+    padding: 8px;
+    margin: 4%;
+    background-color: red;
+}
+h3{
+    text-align: center;
+}
+button{
+    background-color: blue;
+    color: white;
+    
+}
+.box_1{
+    background-color: paleturquoise;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+    position: relative;
+    left: 80px;
+    top: -650px;
+    /* padding: 5px; */
+    /* border-radius: 2%; */
+}
+.next{
+    position: relative;
+    text-align: center;
+    top: -600px;
+}
+h1{
+    font-size: 55px;
+    color: blueviolet;
+}
+h2{
+    font-size: 28px;
+}
+.imgsec{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -540px;
+}
+h5{
+    position: relative;
+    top: -550px;
+    text-align: center;
+    font-size: 25px;
+    color: blueviolet;
+
+}
+.nextwave2{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    top: -500px;
+    margin: 2%;
+}
+h6{
+    position: relative;
+    top: -500px;
+    text-align: center;
+    font-size: 45px;
+    color: blueviolet;
+}
+.imgcon{
+    border: 2px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: aliceblue;
+    margin: 2px;
+    width: 310px;
+
+}
+.imgcon1{
+    border: 2px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: aliceblue;
+    width: 300px;
+    margin: 2px;
+
+}
+.imgcon2{
+    border: 2px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: aliceblue;
+    width: 255px;
+    margin: 2px;
+}
+.finish{
+    text-align: center;
+    text-decoration: none;
+    font-size: 45px;
+    position: relative;
+    top: -500px;
+    background-color: rgb(226, 17, 177);
+}
+
+.link{
+    border: 2px solid black;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    /* left: 600px; */
+    top: -500px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    /* background-color: blue; */
+    color: red;
+    background-image: url(images.2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: transparent;
+}
+link:hover{
+    cursor: pointer;
+    color: white;
+    transition: 3s;
+    transform: rotate(20);
+    background-color: rgb(15, 199, 138);
+}
+#sucess{
+    position: relative;
+    top: -400px;
+    text-align: center;
+    background-color: rgb(215, 205, 225);
+    /* border: 2px solid black; */
+    /* width: 400px; */
+    height: 20px;
+    left: 600px;
+
+
+}
+#sucess2{
+    position: relative;
+    top: -400px;
+    text-align: center;
+    /* background-color: blueviolet; */
+    color: white;
+    /* width: 900px; */
+    height: 70px;
+    left: 400px;
+}
+.final{
+   /* background-image: url(images.3.jpg); */
+   background-color: black;
+   background-repeat: no-repeat;
+   background-size: contain;
+   /* background-clip: transparent; */
+   position: relative;
+   top: -490px;
+   text-align: center;
+   font-size: 15px; 
+   height: 400px;
+   color: red;
+   margin: 10px;
+   animation-name: indhu;
+   animation-duration: 10s;
+
+
+   
+}
+@keyframes indhu {
+    20%{
+        background-color: blue;
+        background-repeat: no-repeat;
+    }
+    60%{
+        background-color: brown;
+        background-repeat: no-repeat;
+    }
+    80%{
+        background-color: aquamarine;
+        background-repeat: no-repeat;
+    }
+    100%{
+        background-color: burlywood;
+        background-repeat: no-repeat;
+    }
+    
+}
+.indhu{
+    font-size: 45px;
+    margin: 10%;
+
+}
+.final p{
+    margin: 10p[x];
+    padding: 10px;
+}

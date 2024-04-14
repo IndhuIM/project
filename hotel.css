@@ -1,0 +1,250 @@
+.fomate{
+    position: inline block;
+    border: 2px solid hsl(120, 27%, 8%);
+    background-image: url(hotel/bc\ im.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-weight: bolder;
+    text-align: center;
+    width: 590px;
+    height: 300px;
+    left: 900px;
+    margin: 1px;
+    /* top: 380px; */
+    color: rgb(238, 233, 233);
+    position: relative;
+}
+input{
+    width: 550px;
+    height: 50px;
+
+}
+button{
+    position: relative;
+    top: 50px;
+    background-color:maroon;
+    font-size: large;
+    font-weight: bolder;
+}
+h1{
+    background-color: black;
+    color: #ff7b00;
+    padding: 50px;
+    width: 500PX;
+    position: relative;
+    left: -100px;
+    font-weight: bolder;
+    
+    /* top: 50px; */
+}
+/* h2{
+    position: relative;
+    left: 800px;
+} */
+
+.nav{
+    position: relative;
+    /* left: 300px; */
+}
+.header{
+    display: flex;
+    position:relative;
+    justify-content: space-around;
+    background-color: black;
+    color: #f5BD11;
+}
+.header li{
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ li:hover::after {
+    content:"";
+    width: 60px;
+    height: 2px;
+    background-color: #f5BD11;
+    position: absolute;
+    margin-left: -8px;
+    margin-top: 20px;
+    
+}
+li:hover{
+    cursor: pointer;
+}
+.header p{
+    position: relative;
+    left: 1200px;
+    top: 30px;
+    font-weight:bolder;
+    border: 1px solid #c55906;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: #97370d;
+    color: white;
+    border-radius: 15px;
+}
+@media screen and (max-width:1440px){
+     .nav{
+             flex-basis:60%;
+    }    
+}
+@media screen and (min-width:480px){
+    .nav{
+            flex-basis: 100%;
+   }    
+}
+@media screen and (min-width:560px){
+    .nav{
+            flex-basis: 320px;
+   }    
+}
+#imgtag{
+    border: 1px solid black;
+    width:100%;
+    height: 600px;
+    background-image: url(one.webp);
+    position: relative;
+    animation-name: indhu;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes indhu {
+    20%{
+        background-image: url(hotel/two.webp);
+        background-repeat: no-repeat;
+    }
+    40%{
+        background-image: url(hotel/three.webp);
+        background-repeat: no-repeat;
+    }
+    60%{
+        background-image: url(hotel/four.webp);
+        background-repeat: no-repeat;
+    }
+    80%{
+        background-image: url(one.webp);
+        background-repeat: no-repeat;
+    }
+    100%{
+        background-image: url(hotel/two.webp);
+        background-repeat: no-repeat;
+    }
+}
+.second img{
+    animation-name: uma;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes uma {
+    0%,100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    
+}
+.box_4{
+    position: relative;
+    margin-top: 15px;
+    text-align: center;
+    left: -40px;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+    /* margin-top: 50px; */
+    
+}
+.second p{
+    position: relative;
+    /* padding: 10px; */
+    text-align: center;
+    /* height: 40px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.second h2{
+    color: #f5BD11;
+    padding: 10px;
+}
+@media screen and (max-width:800px){
+    .second{
+        flex-basis: 60%;
+    }
+    
+}
+@media screen and (max-width:600px){
+    .third{
+        flex-basis: 60%;
+    }
+    
+}
+.third, h3{
+    display: flex;
+    justify-content: space-around;
+    color: #f5BD11;
+    padding: 10px;
+   
+}
+.third, p{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+
+}
+.droup{
+    position: relative;
+    left: -1000px;
+    top: -250px;
+    color:#f5BD11;
+    border: 1px solid black;
+    width: 1000px;
+    height: 300px;
+    background-color: #101010;
+}
+.droup h1{
+    position: relative;
+    left: -300px;
+    top: 20px;
+    /* font-weight: bolder; */
+    font-size: 25px;
+    
+}
+.finish{
+    position: relative;
+    top: -240px;
+    width: 200px;
+    margin: 20px;
+}
+.finish p{
+    margin: 10px;
+}
+.finishtwo{
+    position: relative;
+    left: 250px;
+    top: -360px;
+    width: 200px;
+    margin: 20px;
+}
+.finishtwo p{
+    margin: 10px;
+}
+.finishthree{
+    position: relative;
+    left: 550px;
+    top: -480px;
+    width: 200px;
+    margin: 20px;
+}
